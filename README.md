@@ -1,5 +1,45 @@
 # Node.js framework Benchmarks
 
+## install
+
+```bash
+git clone https://github.com/aex-ts-node/benchmark
+cd benchmark
+yarn install
+```
+
+## run
+
+```bash
+npm start
+```
+
+## test
+
+
+> Make sure apache ab is installed
+
+```sh
+# root url
+
+test-aex
+test-koa
+test-express
+test-raw
+
+# none root url 
+test-aex-url
+test-koa-url
+test-express-url
+test-raw-url
+
+# parameterized url
+test-aex-param
+test-koa-param
+test-express-param
+test-raw-param
+```
+
 ## root url "/"
 
 | http(raw) | aex     | express | koa     |

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx ts-node src/index",
     "test-aex": "ab -n 100000 -c 1000 http://127.0.0.1:9003/",
     "test-koa": "ab -n 100000 -c 1000 http://127.0.0.1:9002/",
     "test-express": "ab -n 100000 -c 1000 http://127.0.0.1:9001/",

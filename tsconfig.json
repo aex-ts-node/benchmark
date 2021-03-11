@@ -8,6 +8,9 @@
     "experimentalDecorators": true
   },
   "files": [
-    "aex.ts"
+    "src/aex.ts",
+    "src/express.ts",
+    "src/koa.ts",
+    "src/raw.ts",
   ]
 }
